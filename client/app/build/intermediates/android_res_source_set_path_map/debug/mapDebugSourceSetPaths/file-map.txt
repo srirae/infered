@@ -1,0 +1,8 @@
+com.infered.app-pngs-0 /home/srirae/infered/client/app/build/generated/res/pngs/debug
+com.infered.app-updated_navigation_xml-1 /home/srirae/infered/client/app/build/generated/updated_navigation_xml/debug
+com.infered.app-packageDebugResources-2 /home/srirae/infered/client/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.infered.app-packageDebugResources-3 /home/srirae/infered/client/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.infered.app-debug-4 /home/srirae/infered/client/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.infered.app-debug-5 /home/srirae/infered/client/app/src/debug/res
+com.infered.app-main-6 /home/srirae/infered/client/app/src/main/res
+gradleHome-0 /home/srirae/.gradle
