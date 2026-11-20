@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.infered.app-mergeDebugResources-31:/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "com.infered.app-mergeDebugResources-41:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/de3a63aa3a331b3888eff4f302014b4e/transformed/material3/res/values-pt-rPT/values-pt-rPT.xml",
@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/res/values-pt-rPT/values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,254,353,453,560,666,787",
-                        "endColumns": "96,101,98,99,106,105,120,100",
-                        "endOffsets": "147,249,348,448,555,661,782,883"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,93",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "339,436,538,637,737,844,950,9903",
-                        "endColumns": "96,101,98,99,106,105,120,100",
-                        "endOffsets": "431,533,632,732,839,945,1066,9999"
-                    }
-                },
-                {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/6054fb3293afd8c4699a71d60eade4e3/transformed/foundation/res/values-pt-rPT/values-pt-rPT.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "107,10278,10365",
                         "endColumns": "119,86,88",
                         "endOffsets": "222,10360,10449"
+                    }
+                },
+                {
+                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,560,666,787",
+                        "endColumns": "96,101,98,99,106,105,120,100",
+                        "endOffsets": "147,249,348,448,555,661,782,883"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,93",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "339,436,538,637,737,844,950,9903",
+                        "endColumns": "96,101,98,99,106,105,120,100",
+                        "endOffsets": "431,533,632,732,839,945,1066,9999"
                     }
                 }
             ]

@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.infered.app-mergeDebugResources-31:/values-ca/values-ca.xml",
+            "outputFile": "com.infered.app-mergeDebugResources-41:/values-ca/values-ca.xml",
             "map": [
+                {
+                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/res/values-ca/values-ca.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,449,555,660,786",
+                        "endColumns": "95,101,98,96,105,104,125,100",
+                        "endOffsets": "146,248,347,444,550,655,781,882"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,93",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "333,429,531,630,727,833,938,9897",
+                        "endColumns": "95,101,98,96,105,104,125,100",
+                        "endOffsets": "424,526,625,722,828,933,1059,9993"
+                    }
+                },
                 {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/6054fb3293afd8c4699a71d60eade4e3/transformed/foundation/res/values-ca/values-ca.xml",
                     "from": {
@@ -35,23 +52,6 @@
                         "startOffsets": "224,1064,1161,1245,1349,1452,1541,1619,9153,9244,9330,9416,9507,9583,9668,9743,9822,9998,10080,10151",
                         "endColumns": "108,96,83,103,102,88,77,90,90,85,85,90,75,84,74,78,74,81,70,123",
                         "endOffsets": "328,1156,1240,1344,1447,1536,1614,1705,9239,9325,9411,9502,9578,9663,9738,9817,9892,10075,10146,10270"
-                    }
-                },
-                {
-                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/res/values-ca/values-ca.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,253,352,449,555,660,786",
-                        "endColumns": "95,101,98,96,105,104,125,100",
-                        "endOffsets": "146,248,347,444,550,655,781,882"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,93",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "333,429,531,630,727,833,938,9897",
-                        "endColumns": "95,101,98,96,105,104,125,100",
-                        "endOffsets": "424,526,625,722,828,933,1059,9993"
                     }
                 },
                 {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.infered.app-mergeDebugResources-31:/values-it/values-it.xml",
+            "outputFile": "com.infered.app-mergeDebugResources-41:/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/de3a63aa3a331b3888eff4f302014b4e/transformed/material3/res/values-it/values-it.xml",
@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/res/values-it/values-it.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,354,456,565,672,802",
-                        "endColumns": "97,101,98,101,108,106,129,100",
-                        "endOffsets": "148,250,349,451,560,667,797,898"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,93",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "337,435,537,636,738,847,954,9979",
-                        "endColumns": "97,101,98,101,108,106,129,100",
-                        "endOffsets": "430,532,631,733,842,949,1079,10075"
-                    }
-                },
-                {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/6054fb3293afd8c4699a71d60eade4e3/transformed/foundation/res/values-it/values-it.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "107,10352,10450",
                         "endColumns": "118,97,98",
                         "endOffsets": "221,10445,10544"
+                    }
+                },
+                {
+                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,354,456,565,672,802",
+                        "endColumns": "97,101,98,101,108,106,129,100",
+                        "endOffsets": "148,250,349,451,560,667,797,898"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,93",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "337,435,537,636,738,847,954,9979",
+                        "endColumns": "97,101,98,101,108,106,129,100",
+                        "endOffsets": "430,532,631,733,842,949,1079,10075"
                     }
                 },
                 {

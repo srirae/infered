@@ -12,123 +12,189 @@
 9-->INJECTED
 10
 11    <permission
-11-->[androidx.core:core:1.16.0] /home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.18.0] /home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
 12        android:name="com.infered.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.16.0] /home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.18.0] /home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.16.0] /home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.18.0] /home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.infered.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.16.0] /home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.16.0] /home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:4:5-18:19
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.16.0] /home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
-19        android:debuggable="true"
-20        android:extractNativeLibs="false"
-20-->INJECTED
-21        android:label="Infered"
-21-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:4:18-41
-22        android:theme="@android:style/Theme.Material.NoActionBar" >
-22-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:4:42-99
-23        <activity
-23-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:6:9-16:20
-24            android:name="com.infered.MainActivity"
-24-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:6:19-47
-25            android:exported="true" >
-25-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:6:48-71
-26            <intent-filter>
-26-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:8:13-14:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:10:17-68
-27-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:10:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:12:17-76
-29-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:12:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <uses-library
-33-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
-34            android:name="androidx.window.extensions"
-34-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
-35            android:required="false" />
-35-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
-36        <uses-library
-36-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
-37            android:name="androidx.window.sidecar"
-37-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
-38            android:required="false" />
-38-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
-39
+15-->[androidx.core:core:1.18.0] /home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.18.0] /home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.squareup.okhttp3:okhttp-android:5.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/af6e603733e1da0078bcef733c66650a/transformed/okhttp/AndroidManifest.xml:8:5-67
+16-->[com.squareup.okhttp3:okhttp-android:5.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/af6e603733e1da0078bcef733c66650a/transformed/okhttp/AndroidManifest.xml:8:22-64
+17
+18    <application
+18-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:4:5-18:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.18.0] /home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+21-->INJECTED
+22        android:label="Infered"
+22-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:4:18-41
+23        android:theme="@android:style/Theme.Material.NoActionBar" >
+23-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:4:42-99
+24        <activity
+24-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:6:9-16:20
+25            android:name="com.infered.MainActivity"
+25-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:6:19-47
+26            android:exported="true" >
+26-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:6:48-71
+27            <intent-filter>
+27-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:8:13-14:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:10:17-68
+28-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:10:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:12:17-76
+30-->/home/srirae/infered/client/app/src/main/AndroidManifest.xml:12:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <provider
+34-->[org.jetbrains.compose.components:components-resources-android:1.12.0] /home/srirae/.gradle/caches/9.9.2/transforms/f9b1456463886a2900b924008c58fcf8/transformed/library-release/AndroidManifest.xml:8:9-13:20
+35            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+35-->[org.jetbrains.compose.components:components-resources-android:1.12.0] /home/srirae/.gradle/caches/9.9.2/transforms/f9b1456463886a2900b924008c58fcf8/transformed/library-release/AndroidManifest.xml:9:13-82
+36            android:authorities="com.infered.resources.AndroidContextProvider"
+36-->[org.jetbrains.compose.components:components-resources-android:1.12.0] /home/srirae/.gradle/caches/9.9.2/transforms/f9b1456463886a2900b924008c58fcf8/transformed/library-release/AndroidManifest.xml:10:13-84
+37            android:enabled="true"
+37-->[org.jetbrains.compose.components:components-resources-android:1.12.0] /home/srirae/.gradle/caches/9.9.2/transforms/f9b1456463886a2900b924008c58fcf8/transformed/library-release/AndroidManifest.xml:11:13-35
+38            android:exported="false" >
+38-->[org.jetbrains.compose.components:components-resources-android:1.12.0] /home/srirae/.gradle/caches/9.9.2/transforms/f9b1456463886a2900b924008c58fcf8/transformed/library-release/AndroidManifest.xml:12:13-37
+39        </provider>
 40        <provider
-40-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
-41            android:name="androidx.startup.InitializationProvider"
-41-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
-42            android:authorities="com.infered.androidx-startup"
-42-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
-43            android:exported="false" >
-43-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
-44            <meta-data
-44-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
-45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-45-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
-46                android:value="androidx.startup" />
-46-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
-47            <meta-data
-47-->[androidx.lifecycle:lifecycle-process:2.9.4] /home/srirae/.gradle/caches/9.9.2/transforms/ec7943a03aad0929be42e5b130234128/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
-48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-48-->[androidx.lifecycle:lifecycle-process:2.9.4] /home/srirae/.gradle/caches/9.9.2/transforms/ec7943a03aad0929be42e5b130234128/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
-49                android:value="androidx.startup" />
-49-->[androidx.lifecycle:lifecycle-process:2.9.4] /home/srirae/.gradle/caches/9.9.2/transforms/ec7943a03aad0929be42e5b130234128/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
-50            <meta-data
-50-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-51                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-51-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-52                android:value="androidx.startup" />
-52-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-53        </provider>
-54
-55        <receiver
-55-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-56            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-56-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
-57            android:directBootAware="false"
-57-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
-58            android:enabled="true"
-58-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
-59            android:exported="true"
-59-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-60            android:permission="android.permission.DUMP" >
-60-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
-61            <intent-filter>
-61-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
-62                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-62-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
-62-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
-63            </intent-filter>
-64            <intent-filter>
-64-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
-65                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-65-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
-65-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
-66            </intent-filter>
-67            <intent-filter>
-67-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
-68                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
-69            </intent-filter>
-70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
-71                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
-72            </intent-filter>
-73        </receiver>
-74    </application>
-75
-76</manifest>
+40-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:9:9-17:20
+41            android:name="io.github.vinceglb.filekit.dialogs.fileprovider.FileKitFileProvider"
+41-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:10:13-95
+42            android:authorities="com.infered.FileKitFileProvider"
+42-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:11:13-71
+43            android:exported="false"
+43-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:12:13-37
+44            android:grantUriPermissions="true" >
+44-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:13:13-47
+45            <meta-data
+45-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:14:13-16:62
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:15:17-67
+47                android:resource="@xml/filekit_file_paths" />
+47-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:16:17-59
+48        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+49        <service
+49-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:20:9-32:19
+50            android:name="com.google.android.gms.metadata.ModuleDependencies"
+50-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:21:13-78
+51            android:enabled="false"
+51-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:22:13-36
+52            android:exported="false" >
+52-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:23:13-37
+53            <intent-filter>
+53-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:25:13-27:29
+54                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+54-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:26:17-94
+54-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:26:25-91
+55            </intent-filter>
+56
+57            <meta-data
+57-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:29:13-31:36
+58                android:name="photopicker_activity:0:required"
+58-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:30:17-63
+59                android:value="" />
+59-->[io.github.vinceglb:filekit-dialogs-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/26990ce1c78fd567bfba265e1ef2ac12/transformed/filekit-dialogs/AndroidManifest.xml:31:17-33
+60        </service>
+61
+62        <uses-library
+62-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+63            android:name="androidx.window.extensions"
+63-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+64            android:required="false" />
+64-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+65        <uses-library
+65-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+66            android:name="androidx.window.sidecar"
+66-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+67            android:required="false" />
+67-->[androidx.window:window:1.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/c9e90a2f1e0e0d745134e33a0ced6aa8/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+71            android:authorities="com.infered.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/eda08dc18feb05311e1e4f0346dcf83f/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.11.0] /home/srirae/.gradle/caches/9.9.2/transforms/1c4c9d35313a00cca3dfeddb88498404/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.11.0] /home/srirae/.gradle/caches/9.9.2/transforms/1c4c9d35313a00cca3dfeddb88498404/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:30:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.11.0] /home/srirae/.gradle/caches/9.9.2/transforms/1c4c9d35313a00cca3dfeddb88498404/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[io.github.vinceglb:filekit-core-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/209af911510334872b9754ee23d1a832/transformed/filekit-core/AndroidManifest.xml:14:13-16:52
+80                android:name="io.github.vinceglb.filekit.initializer.FileKitInitializer"
+80-->[io.github.vinceglb:filekit-core-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/209af911510334872b9754ee23d1a832/transformed/filekit-core/AndroidManifest.xml:15:17-89
+81                android:value="androidx.startup" />
+81-->[io.github.vinceglb:filekit-core-android:0.14.1] /home/srirae/.gradle/caches/9.9.2/transforms/209af911510334872b9754ee23d1a832/transformed/filekit-core/AndroidManifest.xml:16:17-49
+82            <meta-data
+82-->[com.squareup.okhttp3:okhttp-android:5.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/af6e603733e1da0078bcef733c66650a/transformed/okhttp/AndroidManifest.xml:16:13-18:52
+83                android:name="okhttp3.internal.platform.PlatformInitializer"
+83-->[com.squareup.okhttp3:okhttp-android:5.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/af6e603733e1da0078bcef733c66650a/transformed/okhttp/AndroidManifest.xml:17:17-77
+84                android:value="androidx.startup" />
+84-->[com.squareup.okhttp3:okhttp-android:5.5.0] /home/srirae/.gradle/caches/9.9.2/transforms/af6e603733e1da0078bcef733c66650a/transformed/okhttp/AndroidManifest.xml:18:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <receiver
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+91            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+92            android:directBootAware="false"
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+93            android:enabled="true"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+94            android:exported="true"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+95            android:permission="android.permission.DUMP" >
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+97                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+100                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+103                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+106                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/srirae/.gradle/caches/9.9.2/transforms/3fd552642657c10489cdf86f2007475f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+107            </intent-filter>
+108        </receiver>
+109    </application>
+110
+111</manifest>

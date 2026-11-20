@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.infered.app-mergeDebugResources-31:/values-pl/values-pl.xml",
+            "outputFile": "com.infered.app-mergeDebugResources-41:/values-pl/values-pl.xml",
             "map": [
-                {
-                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/res/values-pl/values-pl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,254,352,451,565,670,792",
-                        "endColumns": "96,101,97,98,113,104,121,100",
-                        "endOffsets": "147,249,347,446,560,665,787,888"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,93",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "323,420,522,620,719,833,938,9667",
-                        "endColumns": "96,101,97,98,113,104,121,100",
-                        "endOffsets": "415,517,615,714,828,933,1055,9763"
-                    }
-                },
                 {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/36a8d12e163e54de89480aea4823ec64/transformed/ui/res/values-pl/values-pl.xml",
                     "from": {
@@ -35,6 +18,23 @@
                         "startOffsets": "219,1060,1155,1240,1349,1454,1531,1608,8938,9028,9111,9194,9281,9353,9437,9513,9591,9768,9850,9918",
                         "endColumns": "103,94,84,108,104,76,76,92,89,82,82,86,71,83,75,77,75,81,67,123",
                         "endOffsets": "318,1150,1235,1344,1449,1526,1603,1696,9023,9106,9189,9276,9348,9432,9508,9586,9662,9845,9913,10037"
+                    }
+                },
+                {
+                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,352,451,565,670,792",
+                        "endColumns": "96,101,97,98,113,104,121,100",
+                        "endOffsets": "147,249,347,446,560,665,787,888"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,93",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "323,420,522,620,719,833,938,9667",
+                        "endColumns": "96,101,97,98,113,104,121,100",
+                        "endOffsets": "415,517,615,714,828,933,1055,9763"
                     }
                 },
                 {

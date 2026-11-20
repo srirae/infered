@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.infered.app-mergeDebugResources-31:/values-my/values-my.xml",
+            "outputFile": "com.infered.app-mergeDebugResources-41:/values-my/values-my.xml",
             "map": [
                 {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/6054fb3293afd8c4699a71d60eade4e3/transformed/foundation/res/values-my/values-my.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "107,10195,10290",
                         "endColumns": "107,94,107",
                         "endOffsets": "210,10285,10393"
+                    }
+                },
+                {
+                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/res/values-my/values-my.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,262,365,467,572,678,797",
+                        "endColumns": "102,103,102,101,104,105,118,100",
+                        "endOffsets": "153,257,360,462,567,673,792,893"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,93",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "315,418,522,625,727,832,938,9817",
+                        "endColumns": "102,103,102,101,104,105,118,100",
+                        "endOffsets": "413,517,620,722,827,933,1052,9913"
                     }
                 },
                 {
@@ -52,23 +69,6 @@
                         "startOffsets": "215,1057,1151,1239,1343,1447,1530,1614,9086,9175,9257,9344,9430,9505,9594,9671,9744,9918,9999,10065",
                         "endColumns": "99,93,87,103,103,82,83,98,88,81,86,85,74,88,76,72,72,80,65,129",
                         "endOffsets": "310,1146,1234,1338,1442,1525,1609,1708,9170,9252,9339,9425,9500,9589,9666,9739,9812,9994,10060,10190"
-                    }
-                },
-                {
-                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/res/values-my/values-my.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,158,262,365,467,572,678,797",
-                        "endColumns": "102,103,102,101,104,105,118,100",
-                        "endOffsets": "153,257,360,462,567,673,792,893"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,93",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "315,418,522,625,727,832,938,9817",
-                        "endColumns": "102,103,102,101,104,105,118,100",
-                        "endOffsets": "413,517,620,722,827,933,1052,9913"
                     }
                 }
             ]

@@ -13,6 +13,7 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.infered.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -30,6 +31,34 @@
             </intent-filter>
         </activity>
 
+        <provider
+            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+            android:authorities="com.infered.resources.AndroidContextProvider"
+            android:enabled="true"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="io.github.vinceglb.filekit.dialogs.fileprovider.FileKitFileProvider"
+            android:authorities="com.infered.FileKitFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filekit_file_paths" />
+        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+        <service
+            android:name="com.google.android.gms.metadata.ModuleDependencies"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+            </intent-filter>
+
+            <meta-data
+                android:name="photopicker_activity:0:required"
+                android:value="" />
+        </service>
+
         <uses-library
             android:name="androidx.window.extensions"
             android:required="false" />
@@ -46,6 +75,12 @@
                 android:value="androidx.startup" />
             <meta-data
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="io.github.vinceglb.filekit.initializer.FileKitInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="okhttp3.internal.platform.PlatformInitializer"
                 android:value="androidx.startup" />
             <meta-data
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.infered.app-mergeDebugResources-31:/values-uz/values-uz.xml",
+            "outputFile": "com.infered.app-mergeDebugResources-41:/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/36a8d12e163e54de89480aea4823ec64/transformed/ui/res/values-uz/values-uz.xml",
@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/787fa06034efb448fae58914a46ba2f3/transformed/core-1.18.0/res/values-uz/values-uz.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,259,360,460,568,672,791",
+                        "endColumns": "101,101,100,99,107,103,118,100",
+                        "endOffsets": "152,254,355,455,563,667,786,887"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,93",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "327,429,531,632,732,840,944,9679",
+                        "endColumns": "101,101,100,99,107,103,118,100",
+                        "endOffsets": "424,526,627,727,835,939,1058,9775"
+                    }
+                },
+                {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/6054fb3293afd8c4699a71d60eade4e3/transformed/foundation/res/values-uz/values-uz.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -52,23 +69,6 @@
                         "startOffsets": "107,10052,10163",
                         "endColumns": "113,110,100",
                         "endOffsets": "216,10158,10259"
-                    }
-                },
-                {
-                    "source": "/home/srirae/.gradle/caches/9.9.2/transforms/075c741ec46313595e14bb8c381c8078/transformed/core-1.16.0/res/values-uz/values-uz.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,157,259,360,460,568,672,791",
-                        "endColumns": "101,101,100,99,107,103,118,100",
-                        "endOffsets": "152,254,355,455,563,667,786,887"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,93",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "327,429,531,632,732,840,944,9679",
-                        "endColumns": "101,101,100,99,107,103,118,100",
-                        "endOffsets": "424,526,627,727,835,939,1058,9775"
                     }
                 }
             ]

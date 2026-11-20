@@ -23,6 +23,8 @@
         
         <enum name="adjacent" value="2"/>
     </attr>
+    <attr format="string" name="fontProviderSystemFontFamily"/>
+    <attr format="string" name="fontVariationSettings"/>
     <attr format="reference" name="nestedScrollViewStyle"/>
     <attr format="enum" name="splitChangeAnimation">
         
@@ -75,7 +77,7 @@
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
     <color name="call_notification_answer_color">#1d873b</color>
     <color name="call_notification_decline_color">#d93025</color>
-    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_action_color_filter">@color/androidx_core_secondary_text_default_material_light</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
@@ -87,11 +89,11 @@
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
-    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_content_margin_start">0dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
-    <dimen name="notification_main_column_padding_top">10dp</dimen>
-    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_main_column_padding_top">0dp</dimen>
+    <dimen name="notification_media_narrow_margin">12dp</dimen>
     <dimen name="notification_right_icon_size">16dp</dimen>
     <dimen name="notification_right_side_padding_top">4dp</dimen>
     <dimen name="notification_small_icon_background_padding">3dp</dimen>
@@ -169,6 +171,7 @@
     <item name="title" type="id"/>
     <id name="view_tree_disjoint_parent"/>
     <id name="view_tree_lifecycle_owner"/>
+    <id name="view_tree_navigation_event_dispatcher_owner"/>
     <id name="view_tree_on_back_pressed_dispatcher_owner"/>
     <id name="view_tree_saved_state_registry_owner"/>
     <id name="view_tree_view_model_store_owner"/>
@@ -298,19 +301,34 @@
         <item name="android:windowClipToOutline">false</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
-    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
-    <style name="TextAppearance.Compat.Notification.Info">
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">?android:attr/textColorSecondary</item>
-    </style>
+    <style name="Modal" parent="Modal.Base"/>
+    <style name="Modal.Base" parent="">
+    <item name="android:colorBackground">@android:color/transparent</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsTranslucent">true</item>
+
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:navigationBarColor">@android:color/transparent</item>
+    <item name="android:enforceStatusBarContrast" ns1:targetApi="q">false</item>
+    <item name="android:enforceNavigationBarContrast" ns1:targetApi="q">false</item>
+
+    <item name="android:windowLayoutInDisplayCutoutMode" ns1:targetApi="o_mr1">shortEdges</item>
+  </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification"/>
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/>
     <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
-    <style name="TextAppearance.Compat.Notification.Time">
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent="">
+        <item name="android:background">@drawable/notification_action_background</item>
     </style>
-    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
-    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
-    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textColor">@color/androidx_core_secondary_text_default_material_light</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+    </style>
     <declare-styleable name="ActivityFilter">
         
         <attr format="string" name="activityName"/>
@@ -321,6 +339,38 @@
         
         <attr format="boolean" name="alwaysExpand"/>
         <attr name="tag"/>
+    </declare-styleable>
+    <declare-styleable name="AnimatedStateListDrawableCompat">
+        
+        <attr name="android:visible"/>
+        
+        <attr name="android:variablePadding"/>
+        
+        <attr name="android:constantSize"/>
+        
+        <attr name="android:dither"/>
+        
+        <attr name="android:enterFadeDuration"/>
+        
+        <attr name="android:exitFadeDuration"/>
+        
+        
+    </declare-styleable>
+    <declare-styleable name="AnimatedStateListDrawableItem">
+        
+        <attr name="android:drawable"/>
+        
+        <attr name="android:id"/>
+    </declare-styleable>
+    <declare-styleable name="AnimatedStateListDrawableTransition">
+        
+        <attr name="android:fromId"/>
+        
+        <attr name="android:toId"/>
+        
+        <attr name="android:drawable"/>
+        
+        <attr name="android:reversible"/>
     </declare-styleable>
     <declare-styleable name="Capability">
         
@@ -390,7 +440,7 @@
             <enum name="forever" value="-1"/>
         </attr>
         
-        <attr format="string" name="fontProviderSystemFontFamily"/>
+        <attr name="fontProviderSystemFontFamily"/>
     </declare-styleable>
     <declare-styleable name="FontFamilyFont">
         
@@ -403,7 +453,7 @@
         
         <attr format="integer" name="fontWeight"/>
         
-        <attr format="string" name="fontVariationSettings"/>
+        <attr name="fontVariationSettings"/>
         
         <attr format="integer" name="ttcIndex"/>
         
@@ -412,6 +462,14 @@
         <attr name="android:fontWeight"/>
         <attr name="android:fontVariationSettings"/>
         <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyProviderFallback">
+        
+        <attr name="fontProviderQuery"/>
+        
+        <attr name="fontProviderSystemFontFamily"/>
+        
+        <attr name="fontVariationSettings"/>
     </declare-styleable>
     <declare-styleable name="GradientColor">
         
@@ -497,4 +555,35 @@
         <attr name="splitCloseAnimation"/>
         <attr name="splitChangeAnimation"/>
     </declare-styleable>
+    <declare-styleable name="StateListDrawable">
+        
+        <attr name="android:visible"/>
+        
+        <attr name="android:variablePadding"/>
+        
+        <attr name="android:constantSize"/>
+        
+        <attr name="android:dither"/>
+        
+        <attr name="android:enterFadeDuration"/>
+        
+        <attr name="android:exitFadeDuration"/>
+        
+        
+    </declare-styleable>
+    <declare-styleable name="StateListDrawableItem">
+        
+        <attr name="android:drawable"/>
+    </declare-styleable>
+    <declare-styleable name="TextAppearance">
+    <attr name="android:textColor"/>
+    <attr name="android:textSize"/>
+    <attr name="android:textStyle"/>
+    <attr name="android:typeface"/>
+    <attr name="android:fontFamily"/>
+    <attr name="android:shadowColor"/>
+    <attr name="android:shadowDx"/>
+    <attr name="android:shadowDy"/>
+    <attr name="android:shadowRadius"/>
+  </declare-styleable>
 </resources>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.infered.app-mergeDebugResources-31:/values-v30/values-v30.xml",
+            "outputFile": "com.infered.app-mergeDebugResources-41:/values-v30/values-v30.xml",
             "map": [
                 {
                     "source": "/home/srirae/.gradle/caches/9.9.2/transforms/de3a63aa3a331b3888eff4f302014b4e/transformed/material3/res/values-v30/values-v30.xml",
