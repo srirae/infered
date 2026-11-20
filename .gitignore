@@ -7,3 +7,8 @@ backend/build/
 
 .DS_Store
 
+client/.gradle/
+client/build/
+client/app/build/
+client/.kotlin/
+client/local.properties
